@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.example.tableservice.service;
 
-import com.example.demo.entity.Table;
-import com.example.demo.repository.TableRespository;
+import com.example.tableservice.entity.Table;
+import com.example.tableservice.repository.TableRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

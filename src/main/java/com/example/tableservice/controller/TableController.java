@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.tableservice.controller;
 
-import com.example.demo.entity.Table;
-import com.example.demo.service.TableService;
+import com.example.tableservice.entity.Table;
+import com.example.tableservice.service.TableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
