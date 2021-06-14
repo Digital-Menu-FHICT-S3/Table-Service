@@ -17,5 +17,5 @@ public class Table {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long tableId;
-
+    private int tableNumber;
 }

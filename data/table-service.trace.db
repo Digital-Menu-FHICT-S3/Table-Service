@@ -1,0 +1,45 @@
+2021-06-14 10:28:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-14 10:28:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:29:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-14 10:29:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:33:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:45:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:46:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:46:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:47:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, primary key (table_id)) [42001-200]
+2021-06-14 10:49:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-14 10:49:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, TABLE_NUMBER INTEGER NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, table_number integer not null, primary key (table_id)) [42001-200]
+2021-06-14 10:52:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-14 10:52:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, TABLE_NUMBER INTEGER NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, table_number integer not null, primary key (table_id)) [42001-200]
+2021-06-14 10:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-14 10:54:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, TABLE_NUMBER INTEGER NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, table_number integer not null, primary key (table_id)) [42001-200]
