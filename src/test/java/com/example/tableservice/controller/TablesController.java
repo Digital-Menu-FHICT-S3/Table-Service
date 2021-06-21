@@ -1,19 +1,19 @@
 package com.example.tableservice.controller;
 
+import com.example.tableservice.TableServiceApplication;
 import com.example.tableservice.entity.Tables;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+import static com.example.tableservice.TableServiceApplication.mapperTest;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -23,18 +23,15 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class TableController {
-
-    @Autowired
-    private ObjectMapper mapper;
+public class TablesController {
 
     @Autowired
     private MockMvc mvc;
 
     @Test
     void saveTable() throws Exception{
-        Tables table = new Tables(1L,1);
-        String tableAsString = mapper.writeValueAsString(table);
+        Tables tables = new Tables(1L,1);
+        String tableAsString = mapperTest.writeValueAsString(tables);
 
         mvc.perform(post("/table/create")
                 .contentType(MediaType.APPLICATION_JSON)

@@ -786,3 +786,9 @@ insert into tables (table_number, table_id) values (?, ?) [42122-200]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-06-21 10:59:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DROP TABLE IF EXISTS TABLE[*] CASCADE "; expected "identifier"; SQL statement:
+drop table if exists table CASCADE  [42001-200]
+2021-06-21 10:59:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE TABLE[*] (TABLE_ID BIGINT NOT NULL, TABLE_NUMBER INTEGER NOT NULL, PRIMARY KEY (TABLE_ID))"; expected "identifier"; SQL statement:
+create table table (table_id bigint not null, table_number integer not null, primary key (table_id)) [42001-200]

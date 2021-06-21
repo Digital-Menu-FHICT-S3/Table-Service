@@ -16,8 +16,8 @@ public class TableController {
     private TableService tableService;
 
     @PostMapping("/create")
-    public Tables saveCategory(@RequestBody Tables table){
-        return tableService.saveTable(table);
+    public Tables saveCategory(@RequestBody Tables tables){
+        return tableService.saveTable(tables);
     }
 
     @GetMapping("/{id}")

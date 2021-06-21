@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.online-menu</groupId>
-	<artifactId>table-service</artifactId>
+	<artifactId>tables-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>table-service</name>
+	<name>tables-service</name>
 	<description>Menu Service for Online Menu using Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

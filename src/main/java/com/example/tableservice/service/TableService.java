@@ -15,8 +15,8 @@ public class TableService {
 
     public List<Tables> saveTable(List<Tables> tables ){ return tableRepository.saveAll(tables);}
 
-    public Tables saveTable(Tables table) {
-        return tableRepository.save(table);
+    public Tables saveTable(Tables tables) {
+        return tableRepository.save(tables);
     }
 
     public Optional<Tables> findTableById(Long tableId) {
