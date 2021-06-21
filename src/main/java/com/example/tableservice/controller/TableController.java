@@ -1,6 +1,6 @@
 package com.example.tableservice.controller;
 
-import com.example.tableservice.entity.Table;
+import com.example.tableservice.entity.Tables;
 import com.example.tableservice.service.TableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -16,12 +16,12 @@ public class TableController {
     private TableService tableService;
 
     @PostMapping("/create")
-    public Table saveCategory(@RequestBody Table table){
+    public Tables saveCategory(@RequestBody Tables table){
         return tableService.saveTable(table);
     }
 
     @GetMapping("/{id}")
-    public Optional<Table> findCategoryById(@PathVariable("id") Long categoryId){
+    public Optional<Tables> findCategoryById(@PathVariable("id") Long categoryId){
         return tableService.findTableById(categoryId);
     }
 
@@ -31,12 +31,12 @@ public class TableController {
     }
 
     @GetMapping("/all")
-    public List<Table> getAllTable(){
+    public List<Tables> getAllTable(){
         return tableService.GetAllTables();
     }
 
     @PutMapping("/update")
-    public Table updateTable(@RequestBody Table category) {
+    public Tables updateTable(@RequestBody Tables category) {
         return tableService.saveTable(category);
     }
 }

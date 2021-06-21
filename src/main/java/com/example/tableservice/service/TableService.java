@@ -1,6 +1,6 @@
 package com.example.tableservice.service;
 
-import com.example.tableservice.entity.Table;
+import com.example.tableservice.entity.Tables;
 import com.example.tableservice.repository.TableRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,13 +13,13 @@ public class TableService {
     @Autowired
     private TableRespository tableRepository;
 
-    public List<Table> saveTable(List<Table> tables ){ return tableRepository.saveAll(tables);}
+    public List<Tables> saveTable(List<Tables> tables ){ return tableRepository.saveAll(tables);}
 
-    public Table saveTable(Table table) {
+    public Tables saveTable(Tables table) {
         return tableRepository.save(table);
     }
 
-    public Optional<Table> findTableById(Long tableId) {
+    public Optional<Tables> findTableById(Long tableId) {
         return tableRepository.findById(tableId);
     }
 
@@ -27,7 +27,7 @@ public class TableService {
         tableRepository.deleteById(tableId);
     }
 
-    public List<Table> GetAllTables() {
+    public List<Tables> GetAllTables() {
         return tableRepository.findAll();
     }
 

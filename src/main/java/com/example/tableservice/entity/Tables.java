@@ -13,9 +13,10 @@ import javax.persistence.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Table {
+public class Tables {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long tableId;
+
     private int tableNumber;
 }
