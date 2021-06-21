@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 public class TableServiceApplication {
 
-	public static ObjectMapper mapperTest = new ObjectMapper();
+	ObjectMapper mapper = new ObjectMapper();
 	public static void main(String[] args) {
 
 		SpringApplication.run(TableServiceApplication.class, args);
